@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Cutie 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="hearts-container"></div>
+
+    <div id="page-1" class="page active">
+        <div class="card animate-fade">
+            <h1 class="cursive-title">To My Dearest Love,</h1>
+            <p class="letter-text">
+                I don’t know from where I have to start it, but from the moment you walked into my life,
+                 everything became brighter, warmer, and infinitely more beautiful. You are my greatest joy,
+                  my calm in the storm, and my most comforting, real home. 
+                Every single day thinking about you feels like a soft, endless smile I never want to lose.
+                I cherish every memory we've created, and I want to spend the rest of my days making you smile.
+
+            </p>
+            <button class="magic-btn" onclick="goToPage(2)">✨ Discover The Magic ✨</button>
+        </div>
+    </div>
+
+    <div id="page-2" class="page">
+        <div class="card animate-fade">
+            <h1 class="cursive-title"> I LOVE YOU</h1>
+            <p class="letter-text quote">
+                "If I know what love is, it is because of you."
+            </p>
+            <p class="letter-text">
+                You make the ordinary moments extraordinary. Looking into your eyes, I know I have found something 
+                incredibly special. 
+                Let's make this journey even more wonderful.
+            </p>
+            <button class="next-btn" onclick="goToPage(3)">Read More 💌</button>
+        </div>
+    </div>
+
+    <div id="page-3" class="page">
+        <div class="card animate-fade">
+            <h1 class="cursive-title">Dear ADIPTI g</h1>
+            <p class="letter-text">
+               I promise to hold your hand through every season, to make you laugh when you're sad,
+                and to celebrate your wins as if they were my own. In this vast world, my heart has
+                 chosen you, and it will only ever beat for you. This isn’t something temporary for me,
+                  not a moment or a passing feeling I’m not here for time pass. I want something real,
+                   something lasting. This time, I want you  not just for now, but for the rest of my 
+                   life. I want to stand beside you, grow with you, and build a love that stays, no matter
+                    what comes our way.
+
+            </p>
+            <button class="next-btn" onclick="goToPage(4)">Take My Heart 🌹</button>
+        </div>
+    </div>
+
+    <div id="page-4" class="page">
+        <div class="card animate-scale">
+            <h1 class="cursive-title">Will You Be My Girlfriend?</h1>
+            <p id="proposal-msg" class="letter-text">
+                You are my dream come true. Will you do me the honor of being my girlfriend? 💖
+            </p>
+            
+            <div class="bubble-container">
+                <button class="bubble-btn accept-btn" onclick="acceptProposal()">Accept 💖</button>
+                <button class="bubble-btn reject-btn" id="reject-btn" onclick="rejectProposal()">Reject ❌</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-5" class="page">
+        <div class="card celebration-card animate-fade">
+            <h1 class="cursive-title">Unbelievable  You Said Yes! 🎉</h1>
+            <p class="letter-text">I love you to the moon and back! You just made me the happiest person in the world.</p>
+            <img src="hello.png" alt="Beautiful Bouquet" class="bouquet-img">
+            <p class="letter-text">Our beautiful journey begins right now! 🌹</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
